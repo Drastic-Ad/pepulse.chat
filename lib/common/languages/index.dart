@@ -1,0 +1,80 @@
+import 'brazil.dart';
+import 'finland.dart';
+import 'package:get/get_navigation/src/root/internacionalization.dart';
+import 'gujarati.dart';
+import 'bengali.dart';
+import 'czech.dart';
+import 'dutch.dart';
+import 'german.dart';
+import 'hebrew.dart';
+import 'hungarian.dart';
+import 'indonesian.dart';
+import 'italian.dart';
+import 'kannada.dart';
+import 'khmer.dart';
+import 'kurdish.dart';
+import 'marathi.dart';
+import 'persian.dart';
+import 'po.dart';
+import 'poland.dart';
+import 'ar.dart';
+import 'chinese.dart';
+import 'en.dart';
+import 'fr.dart';
+import 'greek.dart';
+import 'hi.dart';
+import 'ja.dart';
+import 'kr.dart';
+import 'portuguese.dart';
+import 'romanian.dart';
+import 'russian.dart';
+import 'serbian.dart';
+import 'spanish.dart';
+import 'swedish.dart';
+import 'thai.dart';
+import 'turkish.dart';
+import 'ukrainian.dart';
+import 'vietnamese.dart';
+
+class Language extends Translations {
+  // TODO: implement keys
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': en,
+        'hi_IN': hi,
+        'ar_AE': ar,
+        'ko_KR': kr,
+        'zh_CN': chinese,
+        'ja_JP': ja,
+        'pl_PL': polish,
+        'uk_UA': ukarian,
+        'el_GR': greek,
+        'fr_FR': fr,
+        'en_PL': poland,
+        'id_ID': indonesian,
+        'es_ES': spanish,
+        'sr_RS': serbian,
+        'hu_HU': hungarian,
+        'bn_BD': bengali,
+        'th_TH': thai,
+        'ro_RO': romanian,
+        'tr_TR': turkish,
+        'it_IT': italian,
+        'fa_IR': persian,
+        'he_IL': hebrew,
+        'ku_TR': kurdish,
+        'mr_IN': marathi,
+        'ru_RU': russian,
+        'cs_CZ': czech,
+        'de_DE': german,
+        'pt_PT': portuguese,
+        'vi_VN': vietnamese,
+        'nl_NL': dutch,
+        'sv_SE': swedish,
+        'kn_IN': kannada,
+        'gu_IN': gujarati,
+        'km_KH': khmer,
+        'pt_BR': brazil,
+        'fi_FI': finland,
+      };
+}

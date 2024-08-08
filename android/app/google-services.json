@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887654664563",
+    "project_id": "chat-23051",
+    "storage_bucket": "chat-23051.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887654664563:android:e945e2f8dfd1c855161d06",
+        "android_client_info": {
+          "package_name": "com.pepulse.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa3FqLwsImSEsxP0CgS9pSo9D0aDjZOxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
